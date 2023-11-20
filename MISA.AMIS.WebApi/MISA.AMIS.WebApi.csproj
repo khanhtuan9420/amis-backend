@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.3.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MISA.AMIS.WebApi.BL\MISA.AMIS.WebApi.BL.csproj" />
+    <ProjectReference Include="..\MISA.AMIS.WebApi.Common\MISA.AMIS.WebApi.Common.csproj" />
+    <ProjectReference Include="..\MISA.AMIS.WebApi.DL\MISA.AMIS.WebApi.DL.csproj" />
+  </ItemGroup>
+
+</Project>
